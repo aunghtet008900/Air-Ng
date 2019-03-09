@@ -1,4 +1,4 @@
-<img src="http://tuesbellecosmetics.com/Jax/Air.png" width="325" height="328" alt="Air-Ng logo">
+<img src="http://tuesbellecosmetics.com/Jax/AIR.png" width="325" height="328" alt="Air-Ng logo">
 
 <img src="https://img.shields.io/badge/Pypi-19.0.3-blue.svg" alt="pypi">
 
@@ -37,7 +37,7 @@ pip3 install Air-Ng
 
 <br>Search for a location from an IP address or host</br>
 ```python
->>> import airminum_ng as air
+>>> import Air_Ng as air
 >>> x = air.geoIplookup('www.google.com')
 >>> x.city
 'Ashburn'
@@ -78,7 +78,7 @@ pip3 install Air-Ng
 
 <br> detect type cms a web application </br>
 ```python
->>> import airminum_ng as air
+>>> import Air_Ng as air
 >>> x = air.CMSdetector('www.domain.co.li')
 >>> x.data
 {'code': 200, 'msg': 'Success', 'id': 1, 'name': 'WordPress', 'confidence': 'high', 'version': '4.8', 'cms_url': 'https://whatcms.org/c/WordPress'}
@@ -88,7 +88,7 @@ pip3 install Air-Ng
 
 <br>map an IP Address to a sub domain</br>
 ```python
->>> import airminum_ng as air
+>>> import Air_Ng as air
 >>> x = air.reverseIplookup('www.domain.co.li')
 >>> x.show_list_Ip
 ['domain.co.li', 'domain.col.mek', 'domain.example', 'domain.bo.ol']
@@ -99,7 +99,7 @@ pip3 install Air-Ng
 <br>Traceroute to show the route the packet has passed to reach the destination</br>
 
 ```python
->>> import airminum_ng as air
+>>> import Air_Ng as air
 >>> air.traceroute('www.google.com')
 Start: 2019-03-09T07:17:27+0000
 HOST: web01                          Loss%   Snt   Last   Avg  Best  Wrst StDev
@@ -117,7 +117,7 @@ HOST: web01                          Loss%   Snt   Last   Avg  Best  Wrst StDev
 
 <br>look for a Host subdomain</br>
 ```python
->>> import airminum_ng as air
+>>> import Air_Ng as air
 >>> x = air.subdomainSearcher('google.com')
 >>> x.list
 ['google-proxy-64-233-172-0.google.com',...
@@ -127,7 +127,7 @@ HOST: web01                          Loss%   Snt   Last   Avg  Best  Wrst StDev
 <br> Show Headers Information</br>
 
 ```python
->>> import airminum_ng as air
+>>> import Air_Ng as air
 >>> x = air.InformationHeaders('https://www.google.com')
 >>> x.check
 {'Date': 'Sat, 09 Mar 2019 07:28:26 GMT', 
@@ -149,7 +149,7 @@ HOST: web01                          Loss%   Snt   Last   Avg  Best  Wrst StDev
 <br>detect the takeover Subdomain</br>
 
 ```python
->>> import airminum_ng as air
+>>> import Air_Ng as air
 >>> x = air.subdomainTakeoverDetector('https://www.domain.co.li')
 >>> x.detect()
 'Vulnerability Takeover Found Cargo'
@@ -161,7 +161,7 @@ HOST: web01                          Loss%   Snt   Last   Avg  Best  Wrst StDev
 <br> Detect Robot.txt file </br>
 
 ```python
->>> import airminum_ng as air
+>>> import Air_Ng as air
 >>> x = air.robotTxtDetector('https://www.domain.col.mek')
 >>> x
 User-agent: *
