@@ -1,4 +1,4 @@
-<img src="http://tuesbellecosmetics.com/Jax/AIR.png" width="325" height="328" alt="Air-Ng logo">
+<img src="Air.png" width="325" height="328" alt="Air-Ng logo">
 
 <img src="https://img.shields.io/badge/Pypi-19.0.3-blue.svg" alt="pypi">
 
