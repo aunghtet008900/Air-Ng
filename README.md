@@ -26,7 +26,17 @@
 
 ### Installation
 ```
+# with pip
+
+apt install python
 pip3 install Air-Ng
+
+# with Git
+
+apt install git
+git clone https://github.com/jaxBCD/Air-Ng.git
+cd Air-Ng
+python setup.py install
 
 ```
 # Getting Started
